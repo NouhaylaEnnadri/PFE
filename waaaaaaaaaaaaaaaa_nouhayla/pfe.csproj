@@ -19,8 +19,4 @@
     <Folder Include="wwwroot\lib\microsoft\signalr\dist\browser\" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\draw\draw.csproj" />
-  </ItemGroup>
-
 </Project>
