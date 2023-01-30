@@ -1,3 +1,4 @@
+using CollabTextEditor;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using waaaaaaaaaaaaaaaa_nouhayla.Data;
@@ -44,5 +45,7 @@ app.MapControllerRoute(
 app.MapRazorPages();
 app.MapHub<userhub>("/hubs/usersCount");
 app.MapHub<death>("/hubs/death");
+app.MapHub<TextHub>("/hubs/text");
+
 
 app.Run();
